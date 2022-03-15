@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+	<title>Vellum Books</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="CSS/Site.css">
+</head>
+<body>
+	<header>
+		<nav class="topMenu">
+			<div class="m-wrap">
+				<ul>
+					<li><a href="/Project/help.php">Help</a></li>
+					<li><a href="/Project/contact.php">Contact</a></li>
+					<li><a href="/Project/myCart.php">My Cart</a></li>
+				</ul>
+				<div>
+				
+					
+					</form>
+				</div>
+			</div>
+		</nav>
+		<nav class="menu">
+			<div class="m-wrap">
+				<a href="/Project/index.php">Welcome</a>
+				<a href="/Project/aboutUs.php">About Us</a>
+				<a href="/Project/sale.php">Sale</a>
+				<a href="/Project/buyBackProgram.php">Buy Back Program</a>
+					<div class="dd">
+						<button class="dd-btn">Store</button>
+						<div class="dd-content">
+							<div class="options">
+								<div class="genre">
+									<h2>Fiction</h2>
+									<a href="#">Fantasy</a>
+									<a href="#">Sci-Fi</a>
+									<a href="#">Thriller</a>
+								</div>
+								<div class="genre">
+									<h2>Non-Fiction</h2>
+									<a href="#">Science</a>
+									<a href="#">Politics</a>
+									<a href="#">Mathematics</a>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</nav>
+		<p>“Reading is essential for those who seek to rise above the ordinary.”</p>
+		<div class="search-bar">
+			<input class="search-txt" placeholder=" Q: Search Vellum Books" type="text" name="">
+			<a class="s-btn" href="#">
+				<i class="fas fa-search"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<div class="m-wrap">
+			<table>
+				<tbody>
+					<tr>
+						<th>Principia Mathematica</th>
+						<th>Brisingr</th>
+						<th>Become a member!</th>
+					</tr>
+					<tr>
+						<td><img src="CSS/book1.png" alt="Principia Mathematica" style="width:100px;height:100px;"></td>
+						<td><img src="CSS/book2.png" alt="Inheritance Cycle" style="width:100px;height:100px;"></td>
+						<td>As a member you will get a number  of benefits <br>such as being able to comment and save books for later.</td>
+					</tr>
+					<tr>
+						<td> Principia Mathematica  was published in the early 20th century by two philosphers Bertrand Russell and Alfred Whitehead. It discusses the foundations on which mathematics have been based upon.</td>
+						<td>Brisingr is the third novel in the Inheritance Cycle by Christopher Paolini. It was released on September 20, 2008.</td>
+						<td><button class="button"> <a href="/Project/signUp.php"> <b>Sign Up Here</b> </a> </button></td>
+					</tr>
+					<tr>
+						<td><a href="/Project/viewBook.php?id=3"><button>Find Out More</button></a></td>
+						<td><a href="/Project/viewBook.php?id=1"><button>Find Out More</button></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Read More, Learn More</h2>
+
+				<img src="CSS/readmore.png" alt="Photo of Books" class="center">
+				<p>From educational textbooks to mythical story books we have a wide variety of books to choose from. At Vellum Books we believe that every should read as it widens everyone’s knowledge about the world and when people know more they can make better decisions and they are able to do more. If we don’t have the book you want let us know by going to the Help section. </p>
+			
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="top-footer">
+			<div class="container">
+				<div class="options">
+					
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<h4>Vellum Books Copyright 2020</h4>
+		</div> 
+	</footer>
+</body>
+</html>
+

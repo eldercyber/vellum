@@ -1,0 +1,11 @@
+
+<?php 
+//CREATE DATABASE in Project/db folder
+$mydb = new SQlite3('books.db');
+//CREATE TABLES
+$mydb->query('CREATE TABLE IF NOT EXISTS `books` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`title`	TEXT NOT NULL,
+	`author`	TEXT,
+	`imageurl`	TEXT NOT NULL)');
+
